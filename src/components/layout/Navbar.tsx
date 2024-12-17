@@ -63,7 +63,7 @@ const Navbar = ({ scrolled }: { scrolled: boolean }) => {
                   <Menu className="h-6 w-6" />
                 </Button>
               </SheetTrigger>
-              <SheetContent className="border-l border-primary/20 bg-background/95 backdrop-blur-sm">
+              <SheetContent className="border-l border-[#196EF8]/80 bg-background/95 backdrop-blur-sm">
                 <div className="flex flex-col space-y-4 mt-8">
                   {navLinks.map((link) => (
                     link.href.startsWith("/") ? (
@@ -103,7 +103,7 @@ const Navbar = ({ scrolled }: { scrolled: boolean }) => {
             </Sheet>
           </div>
 
-          <Button variant="outline" className="gap-2 hidden md:flex">
+          <Button variant="outline" className="gap-2 hidden md:flex border-[#196EF8]/80">
             <Github className="h-4 w-4" />
             GitHub
           </Button>

@@ -17,8 +17,8 @@ const Navbar = ({ scrolled }: { scrolled: boolean }) => {
   ];
 
   const socialLinks = {
-    github: "https://github.com/yourusername",
-    linkedin: "https://linkedin.com/in/yourusername"
+    github: "https://github.com/lahori-venkatesh",
+    linkedin: "https://www.linkedin.com/in/venkatesh-lahori-667b02256/"
   };
 
   return (

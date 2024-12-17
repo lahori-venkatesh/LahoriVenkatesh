@@ -10,7 +10,7 @@ const Footer = () => (
             Lahori Venkatesh
           </h3>
           <p className="text-muted-foreground">
-            Creating beautiful and functional web experiences with passion and precision.
+          Designing ideas, shaping experiences, and building connections that matter.
           </p>
         </div>
         
@@ -28,15 +28,15 @@ const Footer = () => (
           <div className="space-y-2 text-muted-foreground">
             <div className="flex items-center gap-2 justify-center md:justify-start">
               <Mail className="w-4 h-4" />
-              <span>contact@venkatesh.dev</span>
+              <span>lahorivenkatesh709@gmail.com</span>
             </div>
             <div className="flex items-center gap-2 justify-center md:justify-start">
               <Phone className="w-4 h-4" />
-              <span>+1 234 567 890</span>
+              <span>9182928956</span>
             </div>
             <div className="flex items-center gap-2 justify-center md:justify-start">
               <MapPin className="w-4 h-4" />
-              <span>San Francisco, CA</span>
+              <span>Vijayawada, AndhraPradesh</span>
             </div>
           </div>
         </div>
@@ -44,13 +44,13 @@ const Footer = () => (
         <div className="space-y-4 text-center md:text-left">
           <h4 className="font-semibold">Follow Me</h4>
           <div className="flex space-x-4 justify-center md:justify-start">
-            <a href="#" className="p-2 rounded-full border border-primary/20 hover:border-primary/40 transition-colors">
+            <a href="https://www.linkedin.com/in/venkatesh-lahori-667b02256/" className="p-2 rounded-full border border-[#196EF8]/80 hover:border-primary/40 transition-colors">
               <Linkedin className="h-5 w-5 text-primary" />
             </a>
-            <a href="#" className="p-2 rounded-full border border-primary/20 hover:border-primary/40 transition-colors">
+            <a href="https://www.instagram.com/ux_re.alm/" className="p-2 rounded-full border border-[#196EF8]/80 hover:border-primary/40 transition-colors">
               <Instagram className="h-5 w-5 text-primary" />
             </a>
-            <a href="#" className="p-2 rounded-full border border-primary/20 hover:border-primary/40 transition-colors">
+            <a href="https://x.com/TechmyTech" className="p-2 rounded-full border border-[#196EF8]/80 hover:border-primary/40 transition-colors">
               <Twitter className="h-5 w-5 text-primary" />
             </a>
           </div>

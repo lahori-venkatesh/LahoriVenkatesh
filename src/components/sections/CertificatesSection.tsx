@@ -3,37 +3,58 @@ import { Award } from "lucide-react";
 const CertificatesSection = () => {
   const certificates = [
     {
-      title: "Advanced React Development",
-      organization: "Meta",
+      title: "UX-Kickstart Workshop",
+      organization: "Growth School",
       date: "December 2023",
-      image: "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3"
+      image: "/images/ux-workshop.jpg",
+      pdfUrl: "/certificates/UX-Kickstart.pdf",
+    
     },
     {
-      title: "UI/UX Design Professional",
-      organization: "Google",
+      title: "Google UX Design Career Program",
+      organization: "Cou",
       date: "October 2023",
-      image: "https://images.unsplash.com/photo-1626785774573-4b799315345d?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3"
+      image: "/images/google-ux.jpg",
+      pdfUrl: "/certificates/google-ux.pdf",
+    
     },
     {
       title: "Full Stack Development",
-      organization: "IBM",
+      organization: "Apna College",
       date: "August 2023",
-      image: "https://images.unsplash.com/photo-1633356122102-3fe601e05bd2?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3"
+      image: "/images/web.jpg",
+      pdfUrl: "/certificates/web.pdf",
+    
     },
     {
-      title: "AWS Cloud Practitioner",
-      organization: "Amazon",
+      title: "DSA with Java",
+      organization: "Apna  College",
       date: "July 2023",
-      image: "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3"
+      image: "/images/dsa.jpg",
+      pdfUrl: "/certificates/dsa.pdf",
+    
     },
     {
-      title: "Machine Learning Fundamentals",
-      organization: "Stanford",
+      title: "Aspire Leadership Program",
+      organization: "Harvard Bussiness School",
+      date: "Nov 202u",
+      image: "/images/aspire.jpg",
+      pdfUrl: "/certificates/aspire.pdf",
+    
+    },
+    {
+      title: "ChatGPT",
+      organization: "Growth School",
       date: "June 2023",
-      image: "https://images.unsplash.com/photo-1626785774573-4b799315345d?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3"
+      image: "/images/chatgpt.jpg",
+      pdfUrl: "/certificates/chatgpt.pdf",
+    
     }
+    
   ];
-
+  const handleCertificateClick = (pdfUrl: string) => {
+    window.open(pdfUrl, '_blank');
+  };
   return (
     <section id="certificates" className="my-10">
       <div className="w-full max-w-[92%] md:max-w-full mx-auto px-0">
@@ -45,6 +66,7 @@ const CertificatesSection = () => {
             <div
               key={index}
               className="group relative overflow-hidden rounded-lg border border-[#196EF8]/80 from-[#196EF8]/80 to-accent/20 hover:border-[#F9FBFF]/80 transition-all duration-300"
+              onClick={() => handleCertificateClick(cert.pdfUrl)}
             >
               <div className="aspect-video relative">
                 <img

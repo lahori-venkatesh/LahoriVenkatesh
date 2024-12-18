@@ -34,7 +34,7 @@ const ContactSection = () => {
 
       await emailjs.send(
         "service_9zk5y8k", // Replace with your EmailJS Service ID
-        "template_9k8ddan", // Replace with your EmailJS Template ID
+        "template_o0q7gpv", // Replace with your EmailJS Template ID
         templateParams,
         "gcULbDlD5aK8ODPg3" // Replace with your EmailJS Public Key
       );

@@ -69,15 +69,16 @@ const HeroSection = () => {
             To leverage my UX design skills and creative problem-solving abilities to craft impactful, user-centric solutions that bridge gaps in accessibility and mentorship, empowering individuals while driving innovation and delivering meaningful experiences in both personal and professional realms.
             </p>
             <div className="flex flex-col md:flex-row items-center justify-center md:justify-start gap-6 mt-8">
-              <Button size="lg" className="font-poppins px-8">View Resume</Button>
+              <Button size="lg" className="font-poppins px-8 
+              ">View Resume</Button>
               <div className="flex items-center gap-6">
-                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-white hover:text-primary transition-colors">
+                <a href="https://www.linkedin.com/in/venkatesh-lahori-667b02256/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-primary transition-colors">
                   <Linkedin className="w-6 h-6" />
                 </a>
-                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-white hover:text-primary transition-colors">
+                <a href="https://www.instagram.com/ux_re.alm/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-primary transition-colors">
                   <Instagram className="w-6 h-6" />
                 </a>
-                <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" className="text-white hover:text-primary transition-colors">
+                <a href="https://www.youtube.com/channel/UCDFmj0LYFNwXpM6Zi_ETtSw" target="_blank" rel="noopener noreferrer" className="text-white hover:text-primary transition-colors">
                   <Youtube className="w-6 h-6" />
                 </a>
               </div>

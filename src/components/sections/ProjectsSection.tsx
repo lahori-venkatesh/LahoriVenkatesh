@@ -4,18 +4,18 @@ import { Link } from "react-router-dom";
 const ProjectsSection = () => {
   const projects = [
     {
-      title: "E-commerce Platform",
-      description: "A modern e-commerce platform built with React and Node.js, featuring real-time inventory management, secure payment processing, and a responsive design for optimal user experience.",
-      image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
-      tools: ["React", "Node.js", "MongoDB", "Tailwind CSS"],
-      link: "/projects/ecommerce"
+      title: "Personal Portfolio Project",
+      description: "A modern personal portfolio built with React, TypeScript, and Tailwind CSS, featuring an interactive user interface, smooth animations, and responsive design. It showcases my projects, skills, and professional journey, with easy access to my resume and social media links for seamless networking",
+      image: "/images/portfolio.png",
+      tools: ["Vite", "Typescript", "React", "Tailwing CSS", "shadcn-ui", "Typewriter.js"],
+      link: "https://lahorivenkatesh.netlify.app"
     },
     {
-      title: "AI-Powered Analytics",
-      description: "Advanced analytics platform leveraging artificial intelligence to provide actionable insights from complex datasets, featuring interactive visualizations and predictive modeling capabilities.",
-      image: "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
-      tools: ["Python", "TensorFlow", "React", "AWS"],
-      link: "/projects/analytics"
+      title: "MediVars - Revolutionizing Online Healthcare Services",
+      description: "MediVars connects you with expert doctors and healthcare professionals anytime, anywhere. With secure video consultations, instant medical advice, and comprehensive health management, MediVars ensures top-notch care from the comfort of your home. Your health, our priority.",
+      image: "/images/medivars.png",
+      tools: ["TypeScript", "Vite", "React", "Tailwind CSS", "Shadcn UI"],
+      link: "https://medivars.netlify.app"
     },
     {
       title: "Healthcare Dashboard",
